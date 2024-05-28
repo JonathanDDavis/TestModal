@@ -1,0 +1,87 @@
+/* The Modal (background) */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: absolute; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  padding: 20px 20px 20px 20px;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  -webkit-animation-name: fadeIn; /* Fade in the background */
+  -webkit-animation-duration: 0.4s;
+  animation-name: fadeIn;
+  animation-duration: 0.4s
+}
+
+/* Modal Content */
+.modal-content {
+  position: fixed;
+  height: center;
+  background-color: #fefefe;
+  width: 100%;
+  -webkit-animation-name: popIn;
+  -webkit-animation-duration: 0.4s;
+  animation-name: popIn;
+  animation-duration: 0.4s
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+/* .popIn {
+  -webkit-animation-name:popIn;
+  animation-name:popIn;
+}
+@keyframes popIn {
+  0%{-webkit-transform:scale3d(0,0,0);
+  transform:scale3d(0,0,0);
+  opacity:0}20%{opacity:1}40%{-webkit-animation-timing-function:cubic-bezier(0.47,0,0.745,0.715);
+  animation-timing-function:cubic-bezier(0.47,0,0.745,0.715);
+  -webkit-transform:scale3d(1.08,1.08,1.08);
+  transform:scale3d(1.08,1.08,1.08)}60%{-webkit-animation-timing-function:cubic-bezier(0.42,0,0.58,1);
+  animation-timing-function:cubic-bezier(0.42,0,0.58,1);
+  -webkit-transform:scale3d(1,1,1);
+  transform:scale3d(1,1,1)}80%{-webkit-animation-timing-function:cubic-bezier(0.42,0,0.58,1);
+  animation-timing-function:cubic-bezier(0.42,0,0.58,1);
+  -webkit-transform:scale3d(1.03,1.03,1.03);
+  transform:scale3d(1.03,1.03,1.03)}100%{-webkit-animation-timing-function:cubic-bezier(0.25,0.46,0.45,0.94);
+  animation-timing-function:cubic-bezier(0.25,0.46,0.45,0.94);
+  -webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}
+} */
